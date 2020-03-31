@@ -4,8 +4,8 @@ FROM debian:stretch
 ARG USER_ID
 ARG GROUP_ID
 
-ENV STELLAR_CORE_VERSION 12.1.0-28
-ENV STELLAR_HORIZON_VERSION 0.22.2-65
+ENV STELLAR_CORE_VERSION 12.5.0-32
+ENV STELLAR_HORIZON_VERSION 1.0.1-71
 ENV HOME /home/stellar
 
 # add user with specified (or default) user/group ids
